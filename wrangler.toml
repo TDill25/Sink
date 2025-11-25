@@ -2,3 +2,17 @@ name = "agency-links"
 compatibility_date = "2024-11-25"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "dist"
+
+# 1. DATABASE (Crucial)
+[[kv_namespaces]]
+binding = "KV"
+id = "57a851d8719243dea1c44d0dea1d4c9a"
+
+# 2. TRACKER (Crucial)
+[[analytics_engine_datasets]]
+binding = "ANALYTICS"
+dataset = "sink"
+
+# 3. AI (Restored from your deleted file)
+[ai]
+binding = "AI"
